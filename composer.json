@@ -1,0 +1,19 @@
+{
+    "name": "sandroeric/design-patterns-in-php",
+    "description": "Examples of design patterns in PHP",
+    "authors": [
+        {
+            "name": "Sandro Eric",
+            "email": "sandroeric@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatternsInPHP\\": ""
+        }
+    }
+}
