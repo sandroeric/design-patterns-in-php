@@ -7,6 +7,6 @@ $post = new Post('My title', 'what a text!');
 $dao = new PostDAO($post);
 $dao->save();
 
-$persisted_post = PostDAO::findOneBy([ 'title' => 'My title']);
+$persistedPost = PostDAO::findOneBy([ 'title' => 'My title']);
 
-var_dump($persisted_post, $post);
+var_dump($persistedPost, $post);

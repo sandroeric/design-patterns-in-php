@@ -5,8 +5,8 @@ class DoctrineReadModelAdapter implements ReadModelInterface {
     
     private $doctrineReadModel;
     
-    public function __construct(DoctrineReadModel $doctrine_real_model) {
-        $this->doctrineReadModel = new $doctrine_real_model();
+    public function __construct(DoctrineReadModel $doctrineRealModel) {
+        $this->doctrineReadModel = new $doctrineRealModel();
     }
     
     public function findAll() {

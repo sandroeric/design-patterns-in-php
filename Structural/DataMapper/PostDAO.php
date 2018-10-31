@@ -26,7 +26,7 @@ class PostDAO {
     public static function findOneBy($params) 
     {
         $storage = new StorageAdapter();
-        $post_array = $storage->select($params);
-        return new Post($post_array['title'], $post_array['body']);
+        $postArray = $storage->select($params);
+        return new Post($postArray['title'], $postArray['body']);
     }
 }

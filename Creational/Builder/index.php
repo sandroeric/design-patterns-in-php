@@ -3,9 +3,9 @@
 namespace DesignPatternsInPHP\Creational\Builder;
 require_once __DIR__.'/../../vendor/autoload.php';
 
-$flyer_builder = new FlyerBuilder();
-$new_character = (new Director())->build($flyer_builder);
+$flyerBuilder = new FlyerBuilder();
+$newCharacter = (new Director())->build($flyerBuilder);
 ?>
 <pre>
-<?php var_dump($new_character); ?>
+<?php var_dump($newCharacter); ?>
 </pre>

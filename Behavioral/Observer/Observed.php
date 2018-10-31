@@ -4,7 +4,7 @@ namespace DesignPatternsInPHP\Behavioral\Observer;
 
 class Observed implements \SplSubject {
 
-    private $object_property;
+    private $property;
     private $observers;
 
     public function __construct() {
